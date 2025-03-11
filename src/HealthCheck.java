@@ -3,7 +3,7 @@ import java.io.*;
 
 public class HealthCheck {
     private static final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
-    private static final String PHONE_NUMBER = "+989356030110";
+    private static final String PHONE_NUMBER = "+123123123";
 
     public static void main(String[] args) {
         System.out.println("Health Check Monitor started. Alerts will occur every 2 hours. Follow the given instructions");
